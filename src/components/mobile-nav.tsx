@@ -32,7 +32,7 @@ export default function MobileNav({ isVisible }: MobileNavProps) {
               {link.title}
             </Link>
           </li>
-        ))}
+        ))} 
       </ul>
 
       <div className="mt-auto flex items-center justify-center gap-12">

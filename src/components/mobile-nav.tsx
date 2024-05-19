@@ -16,7 +16,7 @@ export default function MobileNav({ isVisible }: MobileNavProps) {
       transition={{ duration: 0.4 }}
       className={`${
         isVisible ? "block" : "hidden"
-      } w-[83%] sm:w-[70%] h-screen py-16 fixed top-0 right-0 bg-[#16181e] z-30 flex flex-col`}
+      } w-[83%] sm:w-[70%] h-screen pt-16 pb-28 fixed top-0 right-0 bg-[#16181e] z-30 flex flex-col`}
     >
       <ul className="flex flex-col items-center gap-12">
         <li className="mb-8">

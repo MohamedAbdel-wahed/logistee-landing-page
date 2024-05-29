@@ -239,7 +239,7 @@ export default function Home() {
         </div>
       </Wrapper>
 
-      <Wrapper className="mt-24 py-16 bg-[#12191f] text-white">
+      <Wrapper className="mt-24 py-10 bg-[#12191f] text-white">
         <Footer />
       </Wrapper>
     </>

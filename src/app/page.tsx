@@ -13,7 +13,7 @@ import Footer from "@/components/footer";
 export default function Home() {
   return (
     <>
-      <Wrapper className="bg-banner h-[92vh] sm:h-[80vh] bg-cover bg-center">
+      <Wrapper className="bg-banner h-[88vh] sm:h-[80vh] bg-cover bg-center">
         <Navbar />
 
         <div className="mt-16 max-w-md flex flex-col gap-8 text-white">

@@ -13,11 +13,11 @@ import Footer from "@/components/footer";
 export default function Home() {
   return (
     <>
-      <Wrapper className="bg-banner h-[90vh] bg-cover bg-center">
+      <Wrapper className="bg-banner h-[92rem] sm:h-[80vh] bg-cover bg-center">
         <Navbar />
 
         <div className="mt-16 max-w-md flex flex-col gap-8 text-white">
-          <h2 className="text-[3.5rem] leading-tight font-bold">
+          <h2 className="text-3xl sm:text-[3.5rem] sm:leading-tight font-bold">
             Quickest & Safest Delivery
           </h2>
           <p className="">

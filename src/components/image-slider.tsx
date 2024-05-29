@@ -52,7 +52,7 @@ export default function ImageSlider() {
                     key={index}
                     className="relative flex-none w-11/12 sm:w-1/2 md:w-5/12 xl:w-1/3 bg-white rounded-lg shadow-md"
                   >
-                    <div className="relative w-full h-[40rem]  rounded-sm overflow-hidden">
+                    <div className="relative w-full h-[30rem] sm:h-[40rem]  rounded-sm overflow-hidden">
                       <Image
                         fill
                         className="object-cover mb-4"

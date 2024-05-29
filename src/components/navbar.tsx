@@ -20,7 +20,7 @@ export default function Navbar() {
           <li key={index}>
             <Link
               href={link.path}
-              className="hover:text-orange-400 capitalize duration-150"
+              className="hover:text-yellow-500 capitalize duration-150"
             >
               {link.title}
             </Link>
@@ -28,18 +28,27 @@ export default function Navbar() {
         ))}
       </ul>
 
-      {isMobileNavVisible && <MobileNav isVisible={isMobileNavVisible} />}
+      {isMobileNavVisible && (
+        <>
+          <button
+            className="w-full h-full fixed inset-0 bg-black/50 z-20"
+            onClick={() => setMobileNavVisible(false)}
+          ></button>
 
-      <div className="hidden sm:flex items-center gap-8">
+          <MobileNav isVisible={isMobileNavVisible} />
+        </>
+      )}
+
+      <div className="hidden lg:flex items-center gap-8">
         <Link
           href="#"
-          className="hover:text-orange-400 outline-none tracking-wide capitalize"
+          className="hover:text-yellow-500 outline-none tracking-wide capitalize"
         >
           sign in
         </Link>
         <Link
           href="#"
-          className="px-4 py-2.5 bg-orange-400/80 hover:bg-transparent border-2 border-transparent hover:border-orange-400 hover:text-orange-400 outline-none tracking-wide uppercase"
+          className="px-4 py-2.5 text-sm font-bold bg-yellow-500 hover:bg-transparent border-2 border-transparent hover:border-yellow-500 hover:text-yellow-500 outline-none tracking-wide uppercase"
         >
           sign up free
         </Link>

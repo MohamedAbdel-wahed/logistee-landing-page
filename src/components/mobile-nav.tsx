@@ -27,7 +27,7 @@ export default function MobileNav({ isVisible }: MobileNavProps) {
           <li key={index}>
             <Link
               href={link.path}
-              className="hover:text-orange-400 capitalize duration-150"
+              className="hover:text-yellow-400 capitalize duration-150"
             >
               {link.title}
             </Link>
@@ -38,13 +38,13 @@ export default function MobileNav({ isVisible }: MobileNavProps) {
       <div className="mt-auto flex items-center justify-center gap-12">
         <Link
           href="#"
-          className="hover:text-orange-400 outline-none tracking-wide capitalize"
+          className="hover:text-yellow-400 outline-none tracking-wide capitalize"
         >
           sign in
         </Link>
         <Link
           href="#"
-          className="px-4 py-2.5 bg-orange-400/80 hover:bg-transparent border-2 border-transparent hover:border-orange-400 hover:text-orange-400 outline-none tracking-wide uppercase"
+          className="px-4 py-2.5 text-sm font-bold bg-yellow-500 hover:bg-transparent border-2 border-transparent hover:border-yellow-500 hover:text-yellow-500 outline-none tracking-wide uppercase"
         >
           sign up free
         </Link>

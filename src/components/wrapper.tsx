@@ -12,7 +12,7 @@ export default function Wrapper({
   noPadding = false,
 }: WrapperProps) {
   return (
-    <main className={`${noPadding ? "" : "px-6 sm:px-12 xl:px-40 2xl:px-96"} ${className} w-full`}>
+    <main className={`${noPadding ? "" : "px-6 sm:px-12 xl:px-36 2xl:px-96"} ${className} w-full`}>
       {children}
     </main>
   );
